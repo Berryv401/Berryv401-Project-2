@@ -8,31 +8,31 @@ instructors as to whether your project is complete.
 The following **_must_** be met in order for the project to be considered
 complete:
 
-- The app is deployed fully deployed (both the front-end and the back-end).
-- New repos with the students' project code are included in the submission.
+- The app is deployed fully deployed (both the front-end and the back-end). 1 - it was deployed and up but stopped working.
+- New repos with the students' project code are included in the submission. 2
 - Students include a `planning/` directory that sufficiently demonstrates their
-  team's planning process.
-- The repos have a README that adequately documents the project.
+  team's planning process. 2
+- The repos have a README that adequately documents the project. 2
 - The commit history of your repos show a roughly equal number of commits from
-  each group member
+  each group member. 2
 
 ## Criteria
 
 We will evaluate your project according to the following criteria:
 
 - **Code Quality:** Is the code well formatted? Is the code easy to read and
-  understand? Does the code follow best practices?
+  understand? Does the code follow best practices? 2
 - **Technical Requirements:** How does the project stack up to the requirements
   for this project? Is the developer making use of the material we've covered in
-  a way that makes sense?
+  a way that makes sense? 2
 - **Creativity & Interface:** Is the application easy to navigate? Does it work
   well in every major browser? Is it responsive? Does it incorporate modern UI
-  Themes?
+  Themes? 2
 - **Functionality:** Does the application work without errors or bugs? Does it
   present a complete app, where every feature is fully implemented in a way that
-  makes sense?
+  makes sense? 2.5
 - **Presentation:** Is there adequate documentation? Is the repository well
-  organized and free of clutter?
+  organized and free of clutter? 2
 
 ## Scoring
 
