@@ -3,7 +3,7 @@
 ## Project Links
 edit
 - https://github.com/Berryv401/Project-2
-- [add your deployment link]()
+- https://berryv401.github.io/Berryv401-Project-2/()
 
 ## Project Description
 
