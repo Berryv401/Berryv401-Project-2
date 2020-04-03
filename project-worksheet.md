@@ -56,9 +56,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Header | This will render the header include the nav | 
 | Main | This will pull in data and from the other paths and forward it to the app |
 | Country | This will show the total and new cases in each country |
-| News Sources | This will show the growth rates over time from countries |
+| Country Data| Pulls data from the api and handles the search function |
+| Country List | Displays the data on the main page |
 | Post MVP, Graphic | This will be a table or graph showing the rates of spread across the world |
-| Footer | This will render the header include the nav | 
+| Footer | This will render all the time the with header | 
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
@@ -67,13 +68,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 3.5hrs | 3.5hrs |
-| Routing components | H | 2 hrs | |
-| Formatting data per country | H | 3 hrs | |
-| About page with Links | H | 3 hrs | |
-| Creating data graphic.. if possible | H | 3 hrs | |
-| Debugging | H | 4 hrs | |
-| Styling | H | 4 hrs | |
-| Total | H | 25 hrs| hrs | hrs |
+| Displaying content | H | 3 hrs | 3 |
+| Routing components | H | 2 hrs | 3 |
+| Formatting data per country | H | 3 hrs | 4 |
+| About page with Links | H | 3 hrs | 3 |
+| Debugging | H | 4 hrs | 5 |
+| Styling | H | 4 hrs | 3 |
+| Total | H | 25 hrs| hrs | 28 |
 
 ## Additional Libraries
  https://api.covid19api.com/summary, https://api.covid19api.com/, 
@@ -82,7 +83,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const filtering = summary.filter( summary =>{
+    return summary.Country.toLowerCase().includes( search.toLowerCase())
+  })
 }
+
+Takes the search input and only returns countries that match the input
 ```
