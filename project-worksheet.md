@@ -1,8 +1,8 @@
 # Project Overview
 
 ## Project Links
-edit
-- https://github.com/Berryv401/Project-2
+
+- https://github.com/Berryv401/Berryv401-Project-2
 - https://berryv401.github.io/Berryv401-Project-2
 
 ## Project Description
@@ -77,7 +77,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 25 hrs| hrs | 28 |
 
 ## Additional Libraries
- https://api.covid19api.com/summary, https://api.covid19api.com/, 
+ https://api.covid19api.com/summary, https://api.covid19api.com/, https://react-bootstrap.github.io/getting-started/introduction
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
